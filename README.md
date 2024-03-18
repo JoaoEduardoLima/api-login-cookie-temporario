@@ -38,16 +38,16 @@ lein run
 
 Pronto, já podemos testar.
 
- [localhost:3010/health](localhost:3010/health)
+ [localhost:3010/health](http://localhost:3010/health)
  <p>Deve retornar um json com a msg de Ok, para garantir que o projeto está pronto pra uso.
 
- [localhost:3010/login](localhost:3010/login)
+ [localhost:3010/login](http://localhost:3010/login)
  <p>Mostra na tela dois inputs para inserir Id e Senha (já mencionados).
 
- [localhost:3010/api/v1](localhost:3010/api/v1)
+ [localhost:3010/api/v1](http://localhost:3010/api/v1)
  <p>Deve retornar uma mensagem de OK se login e senha for compativel.
 
- [localhost:3010/api/v1/admin](localhost:3010/api/v1/admin)
+ [localhost:3010/api/v1/admin](http://localhost:3010/api/v1/admin)
  <p>Deve retornar uma mensagem de OK apenas quando logado como admin.
 
  <u>Pode ser testado outros methodos além do GET também através do Postman. 
